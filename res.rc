@@ -1,4 +1,4 @@
-//Microsoft Developer Studio generated resource script.
+// Microsoft Visual C++ generated resource script.
 //
 #include "resource.h"
 
@@ -13,13 +13,11 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// 日本語 resources
+// 日本語 (日本) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
-#ifdef _WIN32
 LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
 #pragma code_page(932)
-#endif //_WIN32
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -27,18 +25,18 @@ LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
 // TEXTINCLUDE
 //
 
-1 TEXTINCLUDE DISCARDABLE 
+1 TEXTINCLUDE 
 BEGIN
     "resource.h\0"
 END
 
-2 TEXTINCLUDE DISCARDABLE 
+2 TEXTINCLUDE 
 BEGIN
     "#include ""afxres.h""\r\n"
     "\0"
 END
 
-3 TEXTINCLUDE DISCARDABLE 
+3 TEXTINCLUDE 
 BEGIN
     "\r\n"
     "\0"
@@ -52,25 +50,23 @@ END
 // Bitmap
 //
 
-IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\top.bmp"
-IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\left.bmp"
-IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\right.bmp"
-IDB_BITMAP4             BITMAP  DISCARDABLE     "res\\center.bmp"
-IDB_BITMAP5             BITMAP  DISCARDABLE     "res\\bottom.bmp"
+IDB_BITMAP1             BITMAP                  "res\\top.bmp"
 
-/////////////////////////////////////////////////////////////////////////////
-//
-// 24
-//
+IDB_BITMAP2             BITMAP                  "res\\left.bmp"
 
-1                       24      DISCARDABLE     "exe.manifest"
+IDB_BITMAP3             BITMAP                  "res\\right.bmp"
+
+IDB_BITMAP4             BITMAP                  "res\\center.bmp"
+
+IDB_BITMAP5             BITMAP                  "res\\bottom.bmp"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
 // Accelerator
 //
 
-IDR_ACCELERATOR1 ACCELERATORS DISCARDABLE 
+IDR_ACCELERATOR1 ACCELERATORS
 BEGIN
     "0",            ID_0,                   VIRTKEY, NOINVERT
     "1",            ID_1,                   VIRTKEY, NOINVERT
@@ -99,7 +95,7 @@ BEGIN
     VK_SPACE,       ID_STOP,                VIRTKEY, NOINVERT
 END
 
-#endif    // 日本語 resources
+#endif    // 日本語 (日本) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
